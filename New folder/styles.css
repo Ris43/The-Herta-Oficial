@@ -1,0 +1,144 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and basic layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Navbar */
+header nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #1e1e1e;
+    padding: 1rem;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('path-to-hero-image.jpg') no-repeat center center/cover;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.hero .btn {
+    background-color: #FF6347;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+/* Produk Section */
+#produk {
+    padding: 50px 0;
+    background-color: #000;
+}
+
+#produk h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    margin: 20px;
+    text-align: center;
+    width: 250px;
+    background-color: #1e1e1e;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.product p {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+/* Tentang Kami Section */
+#tentang {
+    padding: 50px 0;
+    background-color: #1a1a1a;
+    text-align: center;
+    color: #ddd;
+}
+
+#tentang p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+
+/* Kontak Section */
+#kontak {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #1e1e1e;
+    color: #ccc;
+}
+
+#kontak ul {
+    list-style: none;
+    padding: 0;
+}
+
+#kontak ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
